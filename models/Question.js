@@ -5,9 +5,6 @@ const questionSchema = new mongoose.Schema({
   dimension: String,
   direction: String,
   meaning: String,
-}, {
-  toJSON: { virtuals: true },
-  toObject: { virtuals: true },
 });
 
 module.exports = mongoose.model('Question', questionSchema);
