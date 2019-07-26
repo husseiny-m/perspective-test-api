@@ -2,8 +2,12 @@
   "name": "perspective-test-api",
   "version": "1.0.0",
   "description": "",
+  "now":{
+    "dotenv": "variables.env.now"
+  },
   "scripts": {
-    "start": "nodemon ./start.js"
+    "start": "node ./start.js",
+    "dev": "nodemon ./start.js"
   },
   "repository": {
     "type": "git",
